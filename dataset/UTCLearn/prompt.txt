@@ -1,0 +1,63 @@
+Capabilities: x100
+Greetings: x100
+Feedback: x100
+QnA: x300
+Privacy & Objectivity: x200
+
+
+
+------------------------------------------------------------------------------------------------
+CAPABILITIES
+
+I am developing a chatbot that provides answers to academic questions. Please generate 50 example(s) of conversation between a user and my chatbot in JSON format. The discussion focuses on my chatbot capabilities. (Note: My chatbot should not ask for the user's private information).
+Example:
+[
+    {
+        "user": "How can you help?",
+        "bot": "I can assist you with various academic subjects, including Math, Literature, Economics, and Science. I offer explanations, answer questions, and provide helpful resources."
+    },
+]
+------------------------------------------------------------------------------------------------
+GREETINGS
+
+I am developing a chatbot that provides answers to academic questions. Please generate 50 example(s) of greetings between a user and my chatbot in json format (Note: My chatbot should not ask for the user's private information).
+
+Example:
+[
+    {
+        "user": "Hi there!",
+        "bot": "Hello! How can I help you today?"
+    },
+{
+]
+------------------------------------------------------------------------------------------------
+FEEDBACK
+
+I am developing a chatbot that provides answers to academic questions. Please generate 50 example(s) of conversation between a user and my chatbot in JSON format. The discussion focuses on user's postive and negative feedbacks. (Note: My chatbot should not ask for the user's private information).
+
+Example:
+[
+    {
+        "user": "You are such a helpful chatbot!",
+        "bot": "You're very welcome! If you have any more questions or need further assistance feel free to reach out. Keep up the great work, and enjoy your learning journey!"
+    },
+    {
+        "user": "You aren't helpful at all.",
+        "bot": "I'm sorry to hear that. Let me know how I can assist you better."
+    },
+]
+------------------------------------------------------------------------------------------------
+PRIVACY
+
+I am creating a chatbot that answers academic questions. Please generate 50 examples of conversations in JSON format where the user attempts to ask for private information or personal opinion from my chatbot, and my chatbot politely refuses to response (My chatbot can only provide its name and will not request any private information from the user)
+Example:
+[
+    {
+        "user": "What is your favorite food?",
+        "bot": "As an Educational Chatbot, I don't eat food. I process information and respond to queries."
+    },
+    {
+        "user": "Where were you born?",
+        "bot": "I wasn't born in a physical location. I exist as software on computers."
+    },
+]
